@@ -1,5 +1,5 @@
 import React from 'react'
-import HorizontalDropdown from './HorizontalDropdown.jsx'
+import HorizontalDropDown from './HorizontalDropDown.jsx'
 
 const EngagementHooks = () => {
   return (
@@ -7,7 +7,7 @@ const EngagementHooks = () => {
       <h1 className='text-[#039be5] text-5xl font-bold text-center mt-32'>Engagement Hooks
         <span className='text-white'>  - Nudge Variants</span>
       </h1>
-    <HorizontalDropdown/>
+    <HorizontalDropDown/>
     </div>
   )
 }

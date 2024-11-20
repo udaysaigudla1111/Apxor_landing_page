@@ -19,7 +19,7 @@ const dropDownArray = [
     { title:'PIP Videos',icon:pic5}
 ]
 
-const HorizontalDropdown = () => {
+const HorizontalDropDown = () => {
   return (
     <div className='relative mt-7 pt-16 flex flex-col mx-20'>
         <div className='flex justify-evenly items-center'>
@@ -52,4 +52,4 @@ const HorizontalDropdown = () => {
   )
 }
 
-export default HorizontalDropdown
+export default HorizontalDropDown
