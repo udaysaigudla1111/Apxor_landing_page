@@ -1,5 +1,5 @@
 import React from 'react'
-import HorizontalDropdown from './HorizontalDropdown'
+import HorizontalDropdown from './HorizontalDropdown.jsx'
 
 const EngagementHooks = () => {
   return (
