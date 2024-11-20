@@ -14,7 +14,7 @@ import CarouselCard from './CarouselCard';
 
 const CarouselTestimony = () => {
   return (
-    <div className='h-[600px] relative w-[900px]'>
+    <div className='h-[400px] relative w-[500px]'>
        <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -27,13 +27,13 @@ const CarouselTestimony = () => {
             prevEl:".arrow-left"
         }}
         modules={[Pagination, Navigation]}
-        className="h-full w-[700px]"
+        className="h-full w-[400px]"
         style={{
             "--swiper-pagination-color": "#FFFFFF",
   "--swiper-pagination-bullet-inactive-color": "#999999",
   "--swiper-pagination-bullet-inactive-opacity": "1",
-  "--swiper-pagination-bullet-size": "16px",
-  "--swiper-pagination-bullet-horizontal-gap": "6px",
+  "--swiper-pagination-bullet-size": "12px",
+  "--swiper-pagination-bullet-horizontal-gap": "4px",
         }}
       >
         <SwiperSlide> <CarouselCard/> </SwiperSlide>
@@ -46,8 +46,8 @@ const CarouselTestimony = () => {
         <SwiperSlide> <CarouselCard/> </SwiperSlide>
         <SwiperSlide> <CarouselCard/> </SwiperSlide>
       </Swiper>
-      <div className='arrow-left absolute top-[270px] left-0 z-5 '><FaChevronLeft className='text-white size-14'/></div>
-      <div className='arrow-right absolute top-[270px] right-0 z-5'><FaChevronRight className='text-white size-14'/></div>
+      <div className='arrow-left absolute top-[180px] left-0 z-5 '><FaChevronLeft className='text-white size-10'/></div>
+      <div className='arrow-right absolute top-[180px] right-0 z-5'><FaChevronRight className='text-white size-10'/></div>
     </div>
   )
 }

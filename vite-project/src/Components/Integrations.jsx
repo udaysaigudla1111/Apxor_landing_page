@@ -9,11 +9,11 @@ const companyArray = [pic1,pic2,pic3,pic4,pic5,pic6]
 const Integrations = () => {
   return (
     <div className='h-screen flex flex-col gap-20 items-center justify-center text-white bg-[#16202f]'>
-        <div><h1 className='text-5xl font-bold'>Our <span className='text-[#039be5]'>Integrations</span></h1></div>
-        <div><h1 className='text-2xl'>Apxor allows you to integrate deeply with your favourite tools for easier transfer of data</h1></div>
+        <div><h1 className='text-3xl font-bold'>Our <span className='text-[#039be5]'>Integrations</span></h1></div>
+        <div><h1 className='text-xl'>Apxor allows you to integrate deeply with your favourite tools for easier transfer of data</h1></div>
         <div className='grid grid-cols-3 gap-x-32 gap-y-10' >
                 {companyArray.map((pic)=>{
-                   return <img src={pic} className='w-56 h-28 object-cover ' alt="" />
+                   return <img src={pic} className='w-48 h-24 object-cover ' alt="" />
                 })}
         </div>
     </div>

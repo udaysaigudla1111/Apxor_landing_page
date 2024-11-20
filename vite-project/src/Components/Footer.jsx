@@ -20,13 +20,13 @@ const footerArray = [{
 ]
 const Footer = () => {
   return (
-    <div className='bg-[#12314b] h-fit pb-28 text-white pt-24 px-32'>
-        <div className='grid grid-cols-12 pb-20 border border-t-0 border-x-0 border-b-gray-500'>
+    <div className='bg-[#12314b] h-fit pb-24 text-white pt-14 px-24'>
+        <div className='grid grid-cols-12 pb-16 border border-t-0 border-x-0 border-b-gray-500'>
             
-            <div className='col-span-3 flex flex-col gap-11 '>
-                <h1 className='text-3xl'>Ready to get started?</h1>
-                <button className='bg-[#039be5] py-5 px-5 w-56 rounded-lg text-xl text-white'>Check Our Plans</button>
-                <div className='flex flex-col mt-5 gap-2'>
+            <div className='col-span-3 flex flex-col gap-7 '>
+                <h1 className='text-2xl'>Ready to get started?</h1>
+                <button className='bg-[#039be5] py-3  w-44 rounded-lg text-lg text-white'>Check Our Plans</button>
+                <div className='flex flex-col mt-3 gap-1'>
                     <h1>#103, First Floor, Modern Profound Tech Park,</h1>
                     <h1>Survey No 12, Opp. Ramalayam,</h1>
                     <h1>Laxmi Cyber City, Whitefields, Kothaguda,</h1>
@@ -39,11 +39,11 @@ const Footer = () => {
             <div className='col-span-9 flex justify-around'>
                 {
                     footerArray.map((item)=>{
-                        return <div className='flex flex-col gap-5'>
-                            <h1 className='text-xl font-semibold'>{item.title}</h1>
+                        return <div className='flex flex-col gap-3'>
+                            <h1 className='text-lg font-semibold'>{item.title}</h1>
                             <div>
                             {item.values.map((val)=>{
-                                return <li className='list-none text-lg mb-8'>{val}</li>
+                                return <li className='list-none text-lg mb-4'>{val}</li>
                             })}
                             </div>
                         </div>
@@ -54,9 +54,9 @@ const Footer = () => {
         <div className='flex justify-between items-center mt-5'>
             <h1>Copyright @ 2024 Apxor Technology Solutions Pvt. Ltd</h1>
             <div className='flex gap-5'>
-                <FaLinkedin className='size-10'/>
-                <FaTwitter className='size-10'/>
-                <FaFacebook className='size-10'/>
+                <FaLinkedin className='size-5'/>
+                <FaTwitter className='size-5'/>
+                <FaFacebook className='size-5'/>
             </div>
         </div>
     </div>
