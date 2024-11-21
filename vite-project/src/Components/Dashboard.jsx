@@ -23,7 +23,7 @@ const dashBoardArray = [
 
 const Dashboard = () => {
   return (
-    <div className='bg-[#16202f] text-white pl-9 pr-7 pt-14 '>
+    <div className='bg-[#16202f] text-white pl-9 pr-7 pt-14 pb-6 '>
         <h1 className='text-[#039be5] text-5xl font-semibold '>Product Engagement <span className='text-white'>Made Easy</span></h1>
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-2 h-[450px]'>
 
@@ -47,7 +47,7 @@ const Dashboard = () => {
             </div>
             </div>
 
-            <div className='col-span-1 -translate-y-16 lg:block hidden'>
+            <div className='col-span-1 -translate-y-24 lg:block hidden'>
             <img src={girlpic} alt="" />
             </div>
         </div>

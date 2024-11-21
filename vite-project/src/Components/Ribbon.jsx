@@ -14,7 +14,7 @@ const clientArray = [pic1,pic2,pic3,pic4,pic5,pic6,pic7,pic8,pic9]
 
 const Ribbon = () => {
   return (
-    <div className=' bg-[#172435]  h-24 flex justify-evenly items-center p-6  gap-2'>
+    <div className=' bg-[#172435] h-24 flex justify-evenly items-center p-6 gap-2'>
         <div className='text-white text-lg border-r-2 border-r-[#039be5]  w-[350px] pr-14'>
             <h1 className=''>Top companies trust <span className='text-[#039be5]'>APXOR</span> to</h1> <h1> drive product engagement and growth</h1>
         </div>
